@@ -1,0 +1,17 @@
+version: 1
+
+system:
+  debug: true
+  data_dir: ./data
+
+logging:
+  level: debug
+
+ocr:
+  languages:
+    - ron
+    - eng
+
+api:
+  host: 127.0.0.1
+  port: 8000

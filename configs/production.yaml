@@ -1,0 +1,28 @@
+version: 1
+
+system:
+  debug: false
+  data_dir: /var/lib/lexmind
+
+logging:
+  level: info
+  json_format: true
+
+ocr:
+  languages:
+    - ron
+    - eng
+
+api:
+  host: 0.0.0.0
+  port: 8000
+
+security:
+  auth_required: true
+
+cache:
+  backend: redis
+
+monitoring:
+  enabled: true
+  metrics_port: 9090

@@ -1,0 +1,101 @@
+version: 1
+
+system:
+  app_name: LexMind
+  environment: development
+  debug: true
+  data_dir: ./data
+
+logging:
+  level: debug
+  json_format: false
+  correlation_id: true
+
+kernel:
+  version: "0.1.0"
+  max_modules: 256
+  fail_fast: false
+
+events:
+  enabled: true
+  history_size: 1000
+  async_dispatch: false
+
+plugins:
+  enabled: true
+  auto_discover: true
+  directories: []
+
+ocr:
+  default_provider: tesseract
+  languages:
+    - ron
+    - eng
+  dpi: 300
+
+parser:
+  default_parser: pdf
+  extract_metadata: true
+
+chunking:
+  strategy: recursive
+  chunk_size: 1024
+  chunk_overlap: 128
+
+embeddings:
+  default_provider: openai
+  model: text-embedding-3-small
+  dimensions: 1536
+
+vector_store:
+  default_provider: pgvector
+  collection: lexmind
+  distance: cosine
+
+retrieval:
+  top_k: 10
+  hybrid_alpha: 0.5
+
+reranker:
+  enabled: true
+  model: cross-encoder
+  top_n: 5
+
+knowledge_graph:
+  enabled: true
+  backend: networkx
+
+timeline:
+  enabled: true
+  date_formats:
+    - "%Y-%m-%d"
+
+mcp:
+  enabled: false
+  transport: stdio
+
+api:
+  host: 0.0.0.0
+  port: 8000
+  cors_origins: []
+
+ui:
+  enabled: true
+  theme: auto
+
+cache:
+  enabled: true
+  backend: memory
+  ttl_seconds: 3600
+
+security:
+  auth_required: false
+  allowed_hosts: []
+
+performance:
+  workers: 4
+  max_concurrency: 64
+
+monitoring:
+  enabled: false
+  metrics_port: 9090

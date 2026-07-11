@@ -1,0 +1,52 @@
+"""Registry mapping configuration section names to their schema models."""
+
+from lexmind.config.config_schema import (
+    ApiConfig,
+    CacheConfig,
+    ChunkingConfig,
+    EmbeddingsConfig,
+    EventsConfig,
+    KernelConfig,
+    KnowledgeGraphConfig,
+    LexMindConfig,
+    LoggingConfig,
+    McpConfig,
+    MonitoringConfig,
+    OcrConfig,
+    ParserConfig,
+    PerformanceConfig,
+    PluginsConfig,
+    RerankerConfig,
+    RetrievalConfig,
+    SecurityConfig,
+    SystemConfig,
+    TimelineConfig,
+    UiConfig,
+    VectorStoreConfig,
+)
+
+SECTION_MODELS: dict[str, type] = {
+    "system": SystemConfig,
+    "logging": LoggingConfig,
+    "kernel": KernelConfig,
+    "events": EventsConfig,
+    "plugins": PluginsConfig,
+    "ocr": OcrConfig,
+    "parser": ParserConfig,
+    "chunking": ChunkingConfig,
+    "embeddings": EmbeddingsConfig,
+    "vector_store": VectorStoreConfig,
+    "retrieval": RetrievalConfig,
+    "reranker": RerankerConfig,
+    "knowledge_graph": KnowledgeGraphConfig,
+    "timeline": TimelineConfig,
+    "mcp": McpConfig,
+    "api": ApiConfig,
+    "ui": UiConfig,
+    "cache": CacheConfig,
+    "security": SecurityConfig,
+    "performance": PerformanceConfig,
+    "monitoring": MonitoringConfig,
+}
+
+ROOT_MODEL = LexMindConfig
