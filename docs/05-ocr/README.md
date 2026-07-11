@@ -10,7 +10,6 @@ OCR engines, preprocessing, accuracy metrics
 
 ## Contents
 
-- [Overview](overview.md)
 
 ## Dependencies
 

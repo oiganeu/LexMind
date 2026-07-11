@@ -10,7 +10,6 @@ Setup, conventions, contributing
 
 ## Contents
 
-- [Overview](overview.md)
 
 ## Dependencies
 

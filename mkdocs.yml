@@ -1,0 +1,100 @@
+site_name: LexMind
+site_description: Open Source Legal Intelligence Platform
+repo_url: https://github.com/oiganeu/LexMind
+repo_name: oiganeu/LexMind
+
+theme:
+  name: material
+  language: en
+  palette:
+    - scheme: default
+      primary: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+    - search.suggest
+    - search.highlight
+    - toc.follow
+    - admonition
+    - footnotes
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - minify:
+      minify_html: true
+  - awesome-pages
+  - redirects:
+      redirect_maps:
+        "old/index.md": "index.md"
+  - glightbox
+  - mermaid2:
+      arguments:
+        securityLevel: "loose"
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - footnotes
+  - toc:
+      permalink: true
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/extra.js
+
+extra:
+  version:
+    provider: mike
+
+nav:
+  - Introduction:
+      - Overview: index.md
+      - Documentation: docs/README.md
+      - Glossary: docs/GLOSSARY.md
+      - FAQ: docs/FAQ.md
+      - Roadmap: docs/ROADMAP.md
+  - Architecture:
+      - Overview: docs/02-architecture/README.md
+      - Domain: docs/03-domain/README.md
+      - Knowledge Graph: docs/14-knowledge-graph/README.md
+      - MCP: docs/18-mcp/README.md
+  - Development:
+      - Guide: docs/27-development/README.md
+      - Testing: docs/23-testing/README.md
+      - Deployment: docs/24-deployment/README.md
+      - Performance: docs/22-performance/README.md
+      - Security: docs/21-security/README.md
+  - API: docs/19-api/README.md
+  - Plugins: docs/25-plugins/README.md
+  - Benchmarks: benchmarks/README.md
+  - ADRs: adr/README.md
+  - Tutorials: docs/20-frontend/README.md
+  - Examples: examples/README.md

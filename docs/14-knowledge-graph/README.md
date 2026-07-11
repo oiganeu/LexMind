@@ -10,7 +10,6 @@ Graph construction, queries, visualization
 
 ## Contents
 
-- [Overview](overview.md)
 
 ## Dependencies
 

@@ -10,7 +10,6 @@ Endpoints, authentication, rate limiting
 
 ## Contents
 
-- [Overview](overview.md)
 
 ## Dependencies
 

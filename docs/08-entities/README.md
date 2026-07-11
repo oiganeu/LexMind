@@ -10,7 +10,6 @@ NER models, entity types, linking
 
 ## Contents
 
-- [Overview](overview.md)
 
 ## Dependencies
 

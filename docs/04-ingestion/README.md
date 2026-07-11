@@ -10,7 +10,6 @@ Import workflows, file handling, batch processing
 
 ## Contents
 
-- [Overview](overview.md)
 
 ## Dependencies
 

@@ -10,7 +10,6 @@ Planned features, milestones, timeline
 
 ## Contents
 
-- [Overview](overview.md)
 
 ## Dependencies
 

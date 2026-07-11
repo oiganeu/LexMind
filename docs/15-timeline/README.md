@@ -10,7 +10,6 @@ Event extraction, chronology, timeline view
 
 ## Contents
 
-- [Overview](overview.md)
 
 ## Dependencies
 

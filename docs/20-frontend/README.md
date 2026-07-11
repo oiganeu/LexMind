@@ -10,7 +10,6 @@ UI components, state management, routing
 
 ## Contents
 
-- [Overview](overview.md)
 
 ## Dependencies
 

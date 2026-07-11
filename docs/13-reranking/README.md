@@ -10,7 +10,6 @@ Reranker models, scoring, top-k selection
 
 ## Contents
 
-- [Overview](overview.md)
 
 ## Dependencies
 

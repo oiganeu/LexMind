@@ -10,7 +10,6 @@ Overview, getting started, quickstart guides
 
 ## Contents
 
-- [Overview](overview.md)
 
 ## Dependencies
 

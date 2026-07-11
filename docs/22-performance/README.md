@@ -10,7 +10,6 @@ Benchmarks, profiling, caching
 
 ## Contents
 
-- [Overview](overview.md)
 
 ## Dependencies
 

@@ -10,7 +10,6 @@ Format parsers, structure extraction, metadata
 
 ## Contents
 
-- [Overview](overview.md)
 
 ## Dependencies
 

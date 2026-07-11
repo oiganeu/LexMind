@@ -10,7 +10,6 @@ MCP servers, tools, resources
 
 ## Contents
 
-- [Overview](overview.md)
 
 ## Dependencies
 

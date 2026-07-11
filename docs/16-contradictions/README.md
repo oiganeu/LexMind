@@ -10,7 +10,6 @@ Detection methods, scoring, resolution
 
 ## Contents
 
-- [Overview](overview.md)
 
 ## Dependencies
 

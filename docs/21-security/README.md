@@ -10,7 +10,6 @@ Auth, encryption, audit, compliance
 
 ## Contents
 
-- [Overview](overview.md)
 
 ## Dependencies
 

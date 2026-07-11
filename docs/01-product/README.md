@@ -10,7 +10,6 @@ Feature descriptions, use cases, user stories
 
 ## Contents
 
-- [Overview](overview.md)
 
 ## Dependencies
 

@@ -10,7 +10,6 @@ Entity definitions, relationships, ontologies
 
 ## Contents
 
-- [Overview](overview.md)
 
 ## Dependencies
 

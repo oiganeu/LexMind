@@ -10,7 +10,6 @@ Storage backends, similarity search, scaling
 
 ## Contents
 
-- [Overview](overview.md)
 
 ## Dependencies
 

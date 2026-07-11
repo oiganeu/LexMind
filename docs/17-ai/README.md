@@ -10,7 +10,6 @@ LLM providers, prompts, fine-tuning
 
 ## Contents
 
-- [Overview](overview.md)
 
 ## Dependencies
 

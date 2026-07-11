@@ -10,7 +10,6 @@ Unit, integration, e2e testing
 
 ## Contents
 
-- [Overview](overview.md)
 
 ## Dependencies
 

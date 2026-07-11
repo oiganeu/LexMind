@@ -10,7 +10,6 @@ Index types, build process, updates
 
 ## Contents
 
-- [Overview](overview.md)
 
 ## Dependencies
 

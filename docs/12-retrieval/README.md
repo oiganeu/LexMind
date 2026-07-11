@@ -10,7 +10,6 @@ Query processing, hybrid search, filters
 
 ## Contents
 
-- [Overview](overview.md)
 
 ## Dependencies
 

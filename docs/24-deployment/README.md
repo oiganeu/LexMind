@@ -10,7 +10,6 @@ Docker, k8s, CI/CD, monitoring
 
 ## Contents
 
-- [Overview](overview.md)
 
 ## Dependencies
 

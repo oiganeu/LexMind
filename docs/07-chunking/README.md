@@ -10,7 +10,6 @@ Chunk types, splitting algorithms, overlap
 
 ## Contents
 
-- [Overview](overview.md)
 
 ## Dependencies
 

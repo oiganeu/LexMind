@@ -10,7 +10,6 @@ Embedding models, dimensionality, caching
 
 ## Contents
 
-- [Overview](overview.md)
 
 ## Dependencies
 

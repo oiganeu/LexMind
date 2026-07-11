@@ -10,7 +10,6 @@ Architecture diagrams, ADRs, design patterns
 
 ## Contents
 
-- [Overview](overview.md)
 
 ## Dependencies
 

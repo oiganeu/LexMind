@@ -10,7 +10,6 @@ Plugin API, lifecycle, examples
 
 ## Contents
 
-- [Overview](overview.md)
 
 ## Dependencies
 
