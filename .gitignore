@@ -20,3 +20,8 @@ build
 # VSCode/JetBrains
 .vscode
 .idea
+
+# Backend
+backend/.venv/
+backend/uv.lock
+backend/site/
