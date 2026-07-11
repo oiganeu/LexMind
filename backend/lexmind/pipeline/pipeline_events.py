@@ -1,0 +1,10 @@
+"""Pipeline event name declarations."""
+
+PIPELINE_STARTED = "pipeline.started"
+STAGE_STARTED = "pipeline.stage_started"
+STAGE_COMPLETED = "pipeline.stage_completed"
+STAGE_FAILED = "pipeline.stage_failed"
+CHECKPOINT_CREATED = "pipeline.checkpoint_created"
+PIPELINE_COMPLETED = "pipeline.completed"
+PIPELINE_CANCELLED = "pipeline.cancelled"
+PIPELINE_FAILED = "pipeline.failed"
