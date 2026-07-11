@@ -1,0 +1,15 @@
+name: Plugin Proposal
+description: Propose a new plugin
+title: "[plugin]: "
+labels: ["plugin", "needs discussion"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Plugin description
+    validations:
+      required: true
+  - type: textarea
+    id: use_case
+    attributes:
+      label: Use case

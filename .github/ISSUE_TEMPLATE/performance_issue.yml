@@ -1,0 +1,15 @@
+name: Performance Issue
+description: Report a performance problem
+title: "[perf]: "
+labels: ["performance"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+    validations:
+      required: true
+  - type: textarea
+    id: benchmarks
+    attributes:
+      label: Benchmarks

@@ -1,0 +1,11 @@
+name: Security Issue
+description: Report a security vulnerability
+title: "[security]: "
+labels: ["security"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+    validations:
+      required: true

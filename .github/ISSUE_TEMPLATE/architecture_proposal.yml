@@ -1,0 +1,15 @@
+name: Architecture Proposal
+description: Propose an architectural change
+title: "[arch]: "
+labels: ["architecture", "needs discussion"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
