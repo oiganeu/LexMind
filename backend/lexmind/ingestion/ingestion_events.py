@@ -1,0 +1,10 @@
+"""Ingestion event name declarations."""
+
+IMPORT_STARTED = "ingestion.import_started"
+IMPORT_PROGRESS = "ingestion.import_progress"
+FILE_DISCOVERED = "ingestion.file_discovered"
+FILE_VALIDATED = "ingestion.file_validated"
+FILE_REJECTED = "ingestion.file_rejected"
+DUPLICATE_DETECTED = "ingestion.duplicate_detected"
+IMPORT_COMPLETED = "ingestion.import_completed"
+IMPORT_FAILED = "ingestion.import_failed"
