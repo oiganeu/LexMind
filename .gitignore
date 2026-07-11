@@ -25,3 +25,8 @@ build
 backend/.venv/
 backend/uv.lock
 backend/site/
+backend/.coverage
+
+# Misc
+.stfolder/
+*~
