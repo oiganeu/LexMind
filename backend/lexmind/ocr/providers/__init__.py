@@ -11,6 +11,16 @@ from lexmind.ocr.providers.ocr_result_mapper import (
     TesseractRawOutput,
     TesseractWord,
 )
+from lexmind.ocr.providers.paddle_plugin import PaddleOCRPlugin
+from lexmind.ocr.providers.paddleocr_provider import (
+    DefaultPaddleEngine,
+    PaddleOCRConfig,
+    PaddleOCREngine,
+    PaddleOCRProvider,
+    PaddleOCRRawOutput,
+    PaddleOCRResultMapper,
+    PaddleOCRWord,
+)
 from lexmind.ocr.providers.plugin import OCRProviderPlugin
 from lexmind.ocr.providers.tesseract_config import TesseractConfig
 from lexmind.ocr.providers.tesseract_plugin import TesseractPlugin
@@ -21,8 +31,16 @@ from lexmind.ocr.providers.tesseract_provider import (
 )
 
 __all__ = [
+    "DefaultPaddleEngine",
     "OCRProviderPlugin",
     "OCRResultMapper",
+    "PaddleOCREngine",
+    "PaddleOCRConfig",
+    "PaddleOCRPlugin",
+    "PaddleOCRProvider",
+    "PaddleOCRRawOutput",
+    "PaddleOCRResultMapper",
+    "PaddleOCRWord",
     "PytesseractEngine",
     "TesseractConfig",
     "TesseractEngine",
