@@ -11,6 +11,7 @@ from lexmind.ocr.providers.ocr_result_mapper import (
     TesseractRawOutput,
     TesseractWord,
 )
+from lexmind.ocr.providers.plugin import OCRProviderPlugin
 from lexmind.ocr.providers.tesseract_config import TesseractConfig
 from lexmind.ocr.providers.tesseract_provider import (
     PytesseractEngine,
@@ -19,6 +20,7 @@ from lexmind.ocr.providers.tesseract_provider import (
 )
 
 __all__ = [
+    "OCRProviderPlugin",
     "OCRResultMapper",
     "PytesseractEngine",
     "TesseractConfig",
