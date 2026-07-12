@@ -23,6 +23,7 @@ class PluginCapability(StrEnum):
     EXPORTER = "exporter"
     IMPORTER = "importer"
     IMPORT_QUEUE = "import_queue"
+    WORKER = "worker"
     FILE_WATCH = "file_watch"
     UI = "ui"
     MCP = "mcp"
