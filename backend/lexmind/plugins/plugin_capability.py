@@ -27,6 +27,7 @@ class PluginCapability(StrEnum):
     TASK_EXECUTOR = "task_executor"
     IMAGE_PREPROCESSING = "image_preprocessing"
     LAYOUT_ANALYSIS = "layout_analysis"
+    TABLE_DETECTION = "table_detection"
     FILE_WATCH = "file_watch"
     UI = "ui"
     MCP = "mcp"
