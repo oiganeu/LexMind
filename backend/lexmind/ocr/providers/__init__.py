@@ -6,6 +6,16 @@ isolates all engine-specific code; the orchestration layer stays
 engine-agnostic.
 """
 
+from lexmind.ocr.providers.easyocr_plugin import EasyOCRPlugin
+from lexmind.ocr.providers.easyocr_provider import (
+    DefaultEasyEngine,
+    EasyOCRConfig,
+    EasyOCREngine,
+    EasyOCRProvider,
+    EasyOCRRawOutput,
+    EasyOCRResultMapper,
+    EasyOCRWord,
+)
 from lexmind.ocr.providers.ocr_result_mapper import (
     OCRResultMapper,
     TesseractRawOutput,
@@ -31,7 +41,15 @@ from lexmind.ocr.providers.tesseract_provider import (
 )
 
 __all__ = [
+    "DefaultEasyEngine",
     "DefaultPaddleEngine",
+    "EasyOCREngine",
+    "EasyOCRConfig",
+    "EasyOCRPlugin",
+    "EasyOCRProvider",
+    "EasyOCRRawOutput",
+    "EasyOCRResultMapper",
+    "EasyOCRWord",
     "OCRProviderPlugin",
     "OCRResultMapper",
     "PaddleOCREngine",
