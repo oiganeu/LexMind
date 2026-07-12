@@ -22,6 +22,8 @@ class PluginCapability(StrEnum):
     TIMELINE = "timeline"
     EXPORTER = "exporter"
     IMPORTER = "importer"
+    IMPORT_QUEUE = "import_queue"
+    FILE_WATCH = "file_watch"
     UI = "ui"
     MCP = "mcp"
     SECURITY = "security"
