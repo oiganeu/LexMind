@@ -26,6 +26,7 @@ class PluginCapability(StrEnum):
     WORKER = "worker"
     TASK_EXECUTOR = "task_executor"
     IMAGE_PREPROCESSING = "image_preprocessing"
+    LAYOUT_ANALYSIS = "layout_analysis"
     FILE_WATCH = "file_watch"
     UI = "ui"
     MCP = "mcp"
