@@ -25,6 +25,7 @@ class PluginCapability(StrEnum):
     IMPORT_QUEUE = "import_queue"
     WORKER = "worker"
     TASK_EXECUTOR = "task_executor"
+    IMAGE_PREPROCESSING = "image_preprocessing"
     FILE_WATCH = "file_watch"
     UI = "ui"
     MCP = "mcp"
