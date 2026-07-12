@@ -24,6 +24,7 @@ class PluginCapability(StrEnum):
     IMPORTER = "importer"
     IMPORT_QUEUE = "import_queue"
     WORKER = "worker"
+    TASK_EXECUTOR = "task_executor"
     FILE_WATCH = "file_watch"
     UI = "ui"
     MCP = "mcp"
